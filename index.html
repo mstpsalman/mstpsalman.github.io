@@ -1,0 +1,52 @@
+<!doctype html> 
+
+<html>
+
+<head>
+    <title>Snowball</title>
+    <script type="text/javascript" src="main.js"></script>
+    <a name="top"></a>
+    <link rel="stylesheet" href="myCssStyles.css">
+</head>
+
+<body  onload="pageLoad()">
+    <header >
+        <h1 class="title" >Snowball I</h1>
+        <h2 class="borderText">In Loving Memory of our Beloved Cat</h2>
+
+
+
+    </header>
+
+    <main>
+
+        <!-- Navigation -->
+        <div class="flex-container" >
+
+            <div><a href="./biography.html">Biography</a></div>
+            <div><a href="./life.html">Life Events</a></div>
+            <div><a href="./poem.html">Poem</a></div>
+            <div><a href="./memorial.html">Memorial</a></div>
+
+        </div>
+
+        <div>
+            <div id="01">
+                <img src="./images/Snowball_I.png"  style="width: 35vw; display: block; margin-right: auto; margin-left: auto; margin-top: 30px; margin-bottom: 30px;">
+            </div>
+            <button id="b01" onmouseover="mouseOv('01')" onmouseleave="mouseLe('01')" onclick="likeItem('01')" style="display: block; margin-left: 70%; width: 100px;">Like</button>
+            <button onmouseover="mouseOv('01')" onmouseleave="mouseLe('01')" onclick="saveItem('01')" style="display: block; margin-left: 70%; width: 100px;">Save</button>
+
+        </div>
+
+    </main>
+
+
+
+    <footer >
+        <button style=" display: block; width: 20%; margin-top: 20px; margin-right: auto; margin-left: auto; cursor: pointer; background-color: rgb(41, 137, 226);"><a href="./saves.html">Click here to get all your saved items</a></button>
+        <h2 class="borderText">We will always miss you</h2>
+    </footer>
+</body>
+
+</html>

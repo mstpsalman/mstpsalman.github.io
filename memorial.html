@@ -1,0 +1,97 @@
+<!doctype html> 
+
+<html>
+
+<head>
+    <title>Snowball -- Memorial</title>
+    <script type="text/javascript" src="main.js"></script>
+    <a name="top"></a>
+    <a name="top"></a>
+    <link rel="stylesheet" href="myCssStyles.css">
+</head>
+
+<body onload="pageLoad()">
+    <header >
+        <h1 class="title" >Snowball I</h1>
+        <h2 class="borderText">In Loving Memory of our Beloved Cat</h2>
+
+
+
+    </header>
+
+    <main>
+
+        <!-- Navigation -->
+        <div class="flex-container" >
+
+            <div><a href="./biography.html">Biography</a></div>
+            <div><a href="./life.html">Life Events</a></div>
+            <div><a href="./poem.html">Poem</a></div>
+            <div><a href="./index.html">Home</a></div>
+
+        </div>
+        <p >Write a something about Snowball.</p>
+        
+        <div>
+        <form style="width: 100%;">
+            <input id="commentForm" style="width: 70%; margin-right: 100px; " type="text" name="tribute" value="You live in my heart."><br>
+
+            <button onclick="comment()" style="width: 200px;" >Submit</button><br><br>
+        </form> 
+
+        <div>
+            <ul id="9999"></ul>
+        </div>
+
+        </div>
+
+        <div style="margin-top: 50px;">
+
+            <p>Please leave your email address below, if you want to contact us. We will contact you as soon possible. </p>
+
+            <form style="width: 100%;">
+                <input id="contactForm" style="width: 70%; margin-right: 100px; " type="text" name="contactus" value="Your email address"><br>
+    
+                <button onclick="contact()" style="width: 200px;" >Submit</button><br><br>
+            </form> 
+    
+            <div>
+                <ul id="9999"></ul>
+            </div>
+    
+            </div>
+
+        <table style=" margin-right: auto; margin-left: auto; margin-bottom: 20px; text-align: center; border: 1px solid burlywood; ">
+            <tr>
+              <th>Video Title</th>
+              <th>Video Link</th>
+            </tr>
+            <tr>
+              <td>Snowball Compilation</td>
+              <td><a href="https://www.youtube.com/watch?v=LWt2qBs_dq0">https://www.youtube.com/watch?v=LWt2qBs_dq0</a></td>
+            </tr>
+            <tr>
+              <td>Cat named Snowball</td>
+              <td><a href="https://www.youtube.com/watch?v=1uPhLsdHGzk">https://www.youtube.com/watch?v=1uPhLsdHGzk</a></td>
+
+            </tr>
+          </table>
+        <div>
+            <div id="56">
+                <img src="./images/Snowball_1_in_heaven.webp" alt="Snowball in Heaven" class="images">
+            </div>
+            <button id="b56" onmouseover="mouseOv('56')" onmouseleave="mouseLe('56')" onclick="likeItem('56')" style="display: block; margin-left: 70%; width: 100px;">Like</button>
+            <button onmouseover="mouseOv('56')" onmouseleave="mouseLe('56')" onclick="saveItem('56')" style="display: block; margin-left: 70%; width: 100px;">Save</button>
+        </div>
+
+    </main>
+
+
+
+    <footer>
+        <button style="display: block; width: 20%; margin-top: 20px; margin-right: auto; margin-left: auto; cursor: pointer; background-color: rgb(41, 137, 226);"><a href="./saves.html">Click here to get all your saved items</a></button>
+        <h2 class="borderText">We will always miss you</h2>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,99 @@
+body {
+    background-color: rgba(58, 89, 73, 0.67);
+  }
+
+  main{
+    border: 05px solid;
+    border-color: rgb(227, 164, 16);
+    border-radius: 30px;
+  }
+
+  p{
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  ul{
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  .flex-container {
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+  }
+
+  .flex-container > div {
+    background-color: #709ae1ff;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    border-radius: 5px;
+    width: 150px;
+    text-align: center;
+  }
+
+.title{
+  text-align: center;
+  font-size: 5rem;
+  color: rgba(255, 217, 0, 0.67);
+  font-weight: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: rgb(17, 0, 33);
+  margin: -12px;
+}
+
+.borderText{
+  text-align: center;
+  font-size: 1rem;
+  color: rgba(220, 187, 0, 0.67);
+  margin-top: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: 1px;
+  background-color: black;
+
+}
+
+/* unvisited link */
+a:link {
+  color: #fcdf05;
+  text-decoration: none;
+}
+/* visited link */
+a:visited {
+  color: #fcdf05;
+  text-decoration: none;
+}
+/* mouse over link */
+a:hover {
+  color: #00903c;
+  text-decoration: none;
+}
+/* selected link */
+a:active {
+  color: #fcdf05;
+  text-decoration: none;
+}
+
+.images{
+  display: block;
+  width: 35vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+
+
+}
+
+form{
+display: inline-block;
+margin-left: 100px;
+
+}
+
+.toggle{
+  background-color: cornflowerblue;
+}
+
